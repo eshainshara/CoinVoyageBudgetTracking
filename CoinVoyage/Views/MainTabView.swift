@@ -5,7 +5,7 @@ struct MainTabView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "house.fill")
+                    Label("HomeCoin", systemImage: "house.fill")
                 }
             
             IslandsView()
@@ -15,7 +15,7 @@ struct MainTabView: View {
             
             MissionsView()
                 .tabItem {
-                    Label("Missions", systemImage: "star.fill")
+                    Label("MissionsCoin", systemImage: "star.fill")
                 }
             
             SettingsView()
